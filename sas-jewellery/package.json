@@ -1,0 +1,12 @@
+{
+  "name": "sas-jewellery",
+  "version": "2.0.0",
+  "description": "SAS Jewellery - jewellery management website (Node.js + MongoDB)",
+  "scripts": {
+    "setup": "npm --prefix backend install",
+    "start": "node run-all.js",
+    "backend": "node backend/server.js",
+    "frontend": "node frontend/serve.js"
+  },
+  "license": "MIT"
+}
